@@ -1,0 +1,146 @@
+{
+  "currencies": [
+    {
+      "code": "USD",
+      "name": "US Dollar",
+      "symbol": "$",
+      "country": "United States",
+      "flag": "🇺🇸"
+    },
+    {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€",
+      "country": "European Union",
+      "flag": "🇪🇺"
+    },
+    {
+      "code": "JPY",
+      "name": "Japanese Yen",
+      "symbol": "¥",
+      "country": "Japan",
+      "flag": "🇯🇵"
+    },
+    {
+      "code": "GBP",
+      "name": "British Pound",
+      "symbol": "£",
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+    },
+    {
+      "code": "CNY",
+      "name": "Chinese Yuan",
+      "symbol": "¥",
+      "country": "China",
+      "flag": "🇨🇳"
+    },
+    {
+      "code": "KRW",
+      "name": "Korean Won",
+      "symbol": "₩",
+      "country": "South Korea",
+      "flag": "🇰🇷"
+    },
+    {
+      "code": "THB",
+      "name": "Thai Baht",
+      "symbol": "฿",
+      "country": "Thailand",
+      "flag": "🇹🇭"
+    },
+    {
+      "code": "SGD",
+      "name": "Singapore Dollar",
+      "symbol": "S$",
+      "country": "Singapore",
+      "flag": "🇸🇬"
+    },
+    {
+      "code": "AUD",
+      "name": "Australian Dollar",
+      "symbol": "A$",
+      "country": "Australia",
+      "flag": "🇦🇺"
+    },
+    {
+      "code": "CAD",
+      "name": "Canadian Dollar",
+      "symbol": "C$",
+      "country": "Canada",
+      "flag": "🇨🇦"
+    }
+  ],
+  "popularPairs": [
+    {
+      "from": "USD",
+      "to": "JPY",
+      "currentRate": 150.25,
+      "change": 0.85,
+      "changePercent": 0.57,
+      "trend": "up",
+      "lastUpdated": "2025-01-27T10:30:00Z"
+    },
+    {
+      "from": "USD",
+      "to": "EUR",
+      "currentRate": 0.92,
+      "change": -0.02,
+      "changePercent": -2.13,
+      "trend": "down",
+      "lastUpdated": "2025-01-27T10:30:00Z"
+    },
+    {
+      "from": "GBP",
+      "to": "JPY",
+      "currentRate": 190.19,
+      "change": 1.06,
+      "changePercent": 0.56,
+      "trend": "up",
+      "lastUpdated": "2025-01-27T10:30:00Z"
+    },
+    {
+      "from": "EUR",
+      "to": "JPY",
+      "currentRate": 163.32,
+      "change": 0.87,
+      "changePercent": 0.53,
+      "trend": "up",
+      "lastUpdated": "2025-01-27T10:30:00Z"
+    },
+    {
+      "from": "USD",
+      "to": "CNY",
+      "currentRate": 7.23,
+      "change": 0.15,
+      "changePercent": 2.12,
+      "trend": "up",
+      "lastUpdated": "2025-01-27T10:30:00Z"
+    },
+    {
+      "from": "USD",
+      "to": "THB",
+      "currentRate": 35.67,
+      "change": 0.23,
+      "changePercent": 0.65,
+      "trend": "up",
+      "lastUpdated": "2025-01-27T10:30:00Z"
+    }
+  ],
+  "historicalData": {
+    "USD_JPY": {
+      "1D": 150.25,
+      "1W": 149.80,
+      "1M": 148.50,
+      "3M": 147.20,
+      "1Y": 145.80
+    },
+    "USD_EUR": {
+      "1D": 0.92,
+      "1W": 0.93,
+      "1M": 0.94,
+      "3M": 0.95,
+      "1Y": 0.96
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "countries": [
+    {
+      "code": "JP",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "plans": [
+        {
+          "id": "japan_airalo_1",
+          "operator": "Airalo",
+          "type": "eSIM",
+          "price": 9.90,
+          "currency": "USD",
+          "data": "1GB/day",
+          "validity": "7 days",
+          "features": ["Unlimited calls", "Local number", "4G/5G support"],
+          "coverage": ["Tokyo", "Osaka", "Kyoto", "Hiroshima"],
+          "activation": "Instant",
+          "rating": 4.8
+        },
+        {
+          "id": "japan_holafly_1",
+          "operator": "Holafly",
+          "type": "eSIM",
+          "price": 19.90,
+          "currency": "USD",
+          "data": "Unlimited",
+          "validity": "7 days",
+          "features": ["Unlimited data", "24/7 support", "5G priority"],
+          "coverage": ["All Japan"],
+          "activation": "Instant",
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "flag": "🇹🇭",
+      "plans": [
+        {
+          "id": "thailand_airalo_1",
+          "operator": "Airalo",
+          "type": "eSIM",
+          "price": 7.90,
+          "currency": "USD",
+          "data": "1GB/day",
+          "validity": "7 days",
+          "features": ["Local rates", "Fast 4G", "Bangkok coverage"],
+          "coverage": ["Bangkok", "Phuket", "Chiang Mai"],
+          "activation": "Instant",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "flag": "🇫🇷",
+      "plans": [
+        {
+          "id": "france_airalo_1",
+          "operator": "Airalo",
+          "type": "eSIM",
+          "price": 12.90,
+          "currency": "USD",
+          "data": "1GB/day",
+          "validity": "7 days",
+          "features": ["EU roaming", "Unlimited calls", "Paris coverage"],
+          "coverage": ["Paris", "Lyon", "Marseille", "Nice"],
+          "activation": "Instant",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "plans": [
+        {
+          "id": "us_airalo_1",
+          "operator": "Airalo",
+          "type": "eSIM",
+          "price": 8.90,
+          "currency": "USD",
+          "data": "1GB/day",
+          "validity": "7 days",
+          "features": ["Nationwide coverage", "5G support", "Unlimited calls"],
+          "coverage": ["New York", "Los Angeles", "Chicago", "Miami"],
+          "activation": "Instant",
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "plans": [
+        {
+          "id": "uk_airalo_1",
+          "operator": "Airalo",
+          "type": "eSIM",
+          "price": 11.90,
+          "currency": "USD",
+          "data": "1GB/day",
+          "validity": "7 days",
+          "features": ["London coverage", "4G/5G support", "EU roaming"],
+          "coverage": ["London", "Manchester", "Birmingham", "Edinburgh"],
+          "activation": "Instant",
+          "rating": 4.7
+        }
+      ]
+    }
+  ],
+  "operators": [
+    {
+      "name": "Airalo",
+      "logo": "airalo-logo.png",
+      "rating": 4.8,
+      "coverage": 190,
+      "features": ["eSIM", "Instant activation", "24/7 support"]
+    },
+    {
+      "name": "Holafly",
+      "logo": "holafly-logo.png",
+      "rating": 4.9,
+      "coverage": 160,
+      "features": ["eSIM", "Unlimited data", "Premium support"]
+    },
+    {
+      "name": "Nomad",
+      "logo": "nomad-logo.png",
+      "rating": 4.6,
+      "coverage": 165,
+      "features": ["eSIM", "Pay as you go", "Global coverage"]
+    }
+  ]
+}

@@ -2,11 +2,17 @@
 
 import React from 'react';
 
+interface LogoProps {
+  size?: 'sm' | 'md' | 'lg';
+  showVersion?: boolean;
+  className?: string;
+}
+
 export default function Logo({ 
   size = 'md', 
   showVersion = false, 
   className = '' 
-}) {
+}: LogoProps) {
   const sizeClasses = {
     sm: 'w-[80px] h-[30px] text-sm',
     md: 'w-[120px] h-[40px] text-lg',

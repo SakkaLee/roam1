@@ -4,28 +4,40 @@ import FeatureCard from '../components/features/FeatureCard';
 import ResultsDisplay from '../components/features/ResultsDisplay';
 import Footer from '../components/layout/Footer';
 
+interface Feature {
+  icon: 'globe' | 'wallet' | 'cloud';
+  title: string;
+  description: string;
+  stats: string;
+  color: 'blue' | 'green' | 'purple';
+  href: string;
+}
+
 export default function Home() {
-  const features = [
+  const features: Feature[] = [ 
     {
       icon: 'globe',
       title: 'Global Roaming Plans',
       description: 'Cover 10 countries with real-time pricing comparison and operator recommendations',
       stats: '10 Countries',
-      color: 'blue'
+      color: 'blue',
+      href: '/roaming'
     },
     {
       icon: 'wallet',
       title: 'Real-time Exchange Rates',
       description: '10 major currency pairs with trend predictions and historical data',
       stats: '10 Currencies',
-      color: 'green'
+      color: 'green',
+      href: '/rates'
     },
     {
       icon: 'cloud',
       title: 'Global Weather Forecast',
       description: '10 popular cities with 7-day forecasts and real-time updates',
       stats: '10 Cities',
-      color: 'purple'
+      color: 'purple',
+      href: '/weather'
     }
   ];
 

@@ -1,0 +1,246 @@
+{
+  "cities": [
+    {
+      "id": "tokyo_jp",
+      "name": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "coordinates": {
+        "lat": 35.6762,
+        "lon": 139.6503
+      },
+      "currentWeather": {
+        "temperature": 15,
+        "feelsLike": 13,
+        "condition": "Sunny",
+        "description": "Clear sky with some clouds",
+        "humidity": 65,
+        "pressure": 1013,
+        "windSpeed": 12,
+        "windDirection": "NE",
+        "visibility": 10,
+        "uvIndex": 4,
+        "lastUpdated": "2025-01-27T10:30:00Z"
+      },
+      "forecast": {
+        "hourly": [
+          { "time": "12:00", "temp": 16, "condition": "Sunny", "icon": "sun" },
+          { "time": "15:00", "temp": 17, "condition": "Partly Cloudy", "icon": "cloud-sun" },
+          { "time": "18:00", "temp": 14, "condition": "Clear", "icon": "moon" }
+        ],
+        "daily": [
+          { "day": "Today", "high": 17, "low": 8, "condition": "Sunny", "icon": "sun" },
+          { "day": "Tomorrow", "high": 16, "low": 7, "condition": "Partly Cloudy", "icon": "cloud-sun" },
+          { "day": "Wednesday", "high": 15, "low": 6, "condition": "Rainy", "icon": "cloud-rain" }
+        ]
+      }
+    },
+    {
+      "id": "paris_fr",
+      "name": "Paris",
+      "country": "France",
+      "countryCode": "FR",
+      "coordinates": {
+        "lat": 48.8566,
+        "lon": 2.3522
+      },
+      "currentWeather": {
+        "temperature": 8,
+        "feelsLike": 5,
+        "condition": "Rainy",
+        "description": "Light rain showers",
+        "humidity": 80,
+        "pressure": 1015,
+        "windSpeed": 18,
+        "windDirection": "SW",
+        "visibility": 8,
+        "uvIndex": 1,
+        "lastUpdated": "2025-01-27T10:30:00Z"
+      },
+      "forecast": {
+        "hourly": [
+          { "time": "12:00", "temp": 9, "condition": "Rainy", "icon": "cloud-rain" },
+          { "time": "15:00", "temp": 10, "condition": "Cloudy", "icon": "cloud" },
+          { "time": "18:00", "temp": 7, "condition": "Partly Cloudy", "icon": "cloud-sun" }
+        ],
+        "daily": [
+          { "day": "Today", "high": 10, "low": 4, "condition": "Rainy", "icon": "cloud-rain" },
+          { "day": "Tomorrow", "high": 12, "low": 6, "condition": "Cloudy", "icon": "cloud" },
+          { "day": "Wednesday", "high": 14, "low": 8, "condition": "Partly Cloudy", "icon": "cloud-sun" }
+        ]
+      }
+    },
+    {
+      "id": "newyork_us",
+      "name": "New York",
+      "country": "USA",
+      "countryCode": "US",
+      "coordinates": {
+        "lat": 40.7128,
+        "lon": -74.0060
+      },
+      "currentWeather": {
+        "temperature": 2,
+        "feelsLike": -2,
+        "condition": "Cloudy",
+        "description": "Overcast with light snow",
+        "humidity": 60,
+        "pressure": 1018,
+        "windSpeed": 15,
+        "windDirection": "NW",
+        "visibility": 6,
+        "uvIndex": 2,
+        "lastUpdated": "2025-01-27T10:30:00Z"
+      },
+      "forecast": {
+        "hourly": [
+          { "time": "12:00", "temp": 3, "condition": "Cloudy", "icon": "cloud" },
+          { "time": "15:00", "temp": 4, "condition": "Partly Cloudy", "icon": "cloud-sun" },
+          { "time": "18:00", "temp": 1, "condition": "Clear", "icon": "moon" }
+        ],
+        "daily": [
+          { "day": "Today", "high": 4, "low": -1, "condition": "Cloudy", "icon": "cloud" },
+          { "day": "Tomorrow", "high": 6, "low": 0, "condition": "Partly Cloudy", "icon": "cloud-sun" },
+          { "day": "Wednesday", "high": 8, "low": 2, "condition": "Sunny", "icon": "sun" }
+        ]
+      }
+    },
+    {
+      "id": "london_gb",
+      "name": "London",
+      "country": "UK",
+      "countryCode": "GB",
+      "coordinates": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "currentWeather": {
+        "temperature": 5,
+        "feelsLike": 2,
+        "condition": "Foggy",
+        "description": "Dense fog with poor visibility",
+        "humidity": 75,
+        "pressure": 1012,
+        "windSpeed": 10,
+        "windDirection": "W",
+        "visibility": 2,
+        "uvIndex": 1,
+        "lastUpdated": "2025-01-27T10:30:00Z"
+      },
+      "forecast": {
+        "hourly": [
+          { "time": "12:00", "temp": 6, "condition": "Foggy", "icon": "cloud" },
+          { "time": "15:00", "temp": 7, "condition": "Partly Cloudy", "icon": "cloud-sun" },
+          { "time": "18:00", "temp": 4, "condition": "Clear", "icon": "moon" }
+        ],
+        "daily": [
+          { "day": "Today", "high": 7, "low": 2, "condition": "Foggy", "icon": "cloud" },
+          { "day": "Tomorrow", "high": 9, "low": 4, "condition": "Partly Cloudy", "icon": "cloud-sun" },
+          { "day": "Wednesday", "high": 11, "low": 6, "condition": "Sunny", "icon": "sun" }
+        ]
+      }
+    },
+    {
+      "id": "sydney_au",
+      "name": "Sydney",
+      "country": "Australia",
+      "countryCode": "AU",
+      "coordinates": {
+        "lat": -33.8688,
+        "lon": 151.2093
+      },
+      "currentWeather": {
+        "temperature": 22,
+        "feelsLike": 24,
+        "condition": "Clear",
+        "description": "Clear blue sky",
+        "humidity": 55,
+        "pressure": 1010,
+        "windSpeed": 8,
+        "windDirection": "SE",
+        "visibility": 15,
+        "uvIndex": 8,
+        "lastUpdated": "2025-01-27T10:30:00Z"
+      },
+      "forecast": {
+        "hourly": [
+          { "time": "12:00", "temp": 24, "condition": "Clear", "icon": "sun" },
+          { "time": "15:00", "temp": 25, "condition": "Partly Cloudy", "icon": "cloud-sun" },
+          { "time": "18:00", "temp": 20, "condition": "Clear", "icon": "moon" }
+        ],
+        "daily": [
+          { "day": "Today", "high": 25, "low": 18, "condition": "Clear", "icon": "sun" },
+          { "day": "Tomorrow", "high": 26, "low": 19, "condition": "Partly Cloudy", "icon": "cloud-sun" },
+          { "day": "Wednesday", "high": 24, "low": 17, "condition": "Rainy", "icon": "cloud-rain" }
+        ]
+      }
+    },
+    {
+      "id": "bangkok_th",
+      "name": "Bangkok",
+      "country": "Thailand",
+      "countryCode": "TH",
+      "coordinates": {
+        "lat": 13.7563,
+        "lon": 100.5018
+      },
+      "currentWeather": {
+        "temperature": 28,
+        "feelsLike": 32,
+        "condition": "Partly Cloudy",
+        "description": "Partly cloudy with high humidity",
+        "humidity": 70,
+        "pressure": 1008,
+        "windSpeed": 5,
+        "windDirection": "S",
+        "visibility": 12,
+        "uvIndex": 7,
+        "lastUpdated": "2025-01-27T10:30:00Z"
+      },
+      "forecast": {
+        "hourly": [
+          { "time": "12:00", "temp": 30, "condition": "Partly Cloudy", "icon": "cloud-sun" },
+          { "time": "15:00", "temp": 31, "condition": "Sunny", "icon": "sun" },
+          { "time": "18:00", "temp": 27, "condition": "Partly Cloudy", "icon": "cloud-sun" }
+        ],
+        "daily": [
+          { "day": "Today", "high": 31, "low": 24, "condition": "Partly Cloudy", "icon": "cloud-sun" },
+          { "day": "Tomorrow", "high": 32, "low": 25, "condition": "Sunny", "icon": "sun" },
+          { "day": "Wednesday", "high": 30, "low": 24, "condition": "Rainy", "icon": "cloud-rain" }
+        ]
+      }
+    }
+  ],
+  "weatherConditions": {
+    "sunny": {
+      "icon": "sun",
+      "description": "Clear sky with bright sunshine",
+      "color": "yellow"
+    },
+    "cloudy": {
+      "icon": "cloud",
+      "description": "Overcast with no direct sunlight",
+      "color": "gray"
+    },
+    "partly_cloudy": {
+      "icon": "cloud-sun",
+      "description": "Mix of sun and clouds",
+      "color": "blue"
+    },
+    "rainy": {
+      "icon": "cloud-rain",
+      "description": "Precipitation in various forms",
+      "color": "blue"
+    },
+    "snowy": {
+      "icon": "cloud-snow",
+      "description": "Frozen precipitation",
+      "color": "white"
+    },
+    "foggy": {
+      "icon": "cloud",
+      "description": "Reduced visibility due to fog",
+      "color": "gray"
+    }
+  }
+}
